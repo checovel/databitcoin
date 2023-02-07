@@ -34,7 +34,7 @@ public class DatabitcoinApplication {
 	
 	@Bean
 	public CoinPriceController getBitCoinPrice(@Autowired CoinPriceDataController coinPriceData) {
-		return new CoinPriceControllerImp(coinPriceData);
+		return new CoinPriceControllerImp(coinPriceData);/* */
 	}
 	
 }
